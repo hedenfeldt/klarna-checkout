@@ -5,10 +5,10 @@ import { config } from 'dotenv';
 config()
 
 const products = [
-    { id: "1", price: 500, name: 'skor'},
-    { id: "2", price: 100, name: 'baloons'},
-    { id: "3", price: 200, name: 'hat'},
-    { id: "4", price: 130, name: 'Technostate-Biljett'},
+    { id: "1", price: 500, name: 'Shoes'},
+    { id: "2", price: 300, name: 'Hoodie'},
+    { id: "3", price: 200, name: 'T-shirt'},
+    { id: "4", price: 600, name: 'Backpack'},
 ]
 
 app.get('/', (req,res) => {
